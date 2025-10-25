@@ -11,4 +11,6 @@ print("The program exited")
 print("Here are the anime you liked:")
 
 for shinn in list:
+
     print("-", shinn)
+    print("Your total anime is", list_count)
