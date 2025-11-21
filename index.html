@@ -1,27 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="./style.css">
-    <title>Facebook_Profile</title>
-</head>
-<style>
-    h1{
-        color: blue;
-    }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1500px;
+      font-size: 25px;
 
-</style>
+    }
+    .nav a {
+      text-decoration: none;
+      color: black;
+      
+     
+    }
+    .item {
+      display: flex;
+      gap: 8px;
+
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: inherit;
+    }
+    .details {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+    .btn {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .p1, .p2 {
+      position: absolute;
+    }
+    .p2 {
+      margin-left: 65%;
+      bottom: 0;
+    }
+    .p1 {
+      z-index: -1%;
+      bottom: 0;
+    }
+    .myacc {
+      margin-left: 90%;
+      position: absolute;
+      
+    }
+  </style>
+  
+  <nav class="nav">
+    <ul class="item">
+      <a href="Renters">Renters</a>
+      <a href="Homeowners">Homeowners</a>
+      <a href="Car">Car</a>
+      <a href="Pet">Pet</a>
+      <a href="Life">Life</a>
+      <a href="Give Back">Giveback</a>
+    </ul>
+
+      <a href="My Account" class="myacc">My Account</a>
+  </nav>
+  <header class="header">
+    <h1>Lemonade</h1>
+
+  </header>
+  <main class="content">
+    <div class="details">
+      <h1>Forget everything you know about insurance</h1>
+      <p>Instant everything. Incredible prices. Big heart</p>
+    </div>
+    <br>
+    <button class="btn">
+      Check our prices
+    </button>
+
+  </main>
+  <div>
+  <img src="image.png" alt="Larawan" class="p1">
+  <img src="image2.png" alt="imahe" class="p2">
+  </div>
+  
+</head>
 <body>
 
-    <div class="top">
-        <div class="cover">
-            <img
-            class="image"
-            src="https://scontent.fpag2-1.fna.fbcdn.net/v/t39.30808-6/472922608_1267560357797419_1157608633084081675_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHzgakkKnSLb0VlbIfgCltQ6aUWfTYSV43ppRZ9NhJXjRg3T1mYJ3t7lI7lLsv7OmUPOaHWIbAIRNLr262hr-08&_nc_ohc=J7zpOdvsavUQ7kNvwHc6QKz&_nc_oc=Adkh5gmAGJVg1Jm4Ncxl1aLggifS2cx8RfjDotMSfjuxjSlruyTl-fFqjsHiFbzM7jU&_nc_zt=23&_nc_ht=scontent.fpag2-1.fna&_nc_gid=Yt2GPUF7R7cRKK5UppWnzg&oh=00_AfYLBMgazxZgS2tgAaDATPh04o_PFrfvegY12gs_QbmKtA&oe=68CC186E"
-            alt="cover_photo">
-        </div>
-    </div>
-    
+
 </body>
 </html>
